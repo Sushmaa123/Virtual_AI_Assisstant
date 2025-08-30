@@ -11,7 +11,7 @@ import geminiResponse from "./gemini.js"
 const app = express()
 
 app.use(cors({
-    origin: process.env.VITE_API_BASE_URL || "http://localhost:3000",
+    origin: process.env.VITE_API_BASE_URL || "http://52.90.148.250:3000",
     credentials: true
 }))
 
