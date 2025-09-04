@@ -11,6 +11,7 @@ services:
 
   backend:
     build: ./backend
+    image: sushmaagowdaa/virtual-backend
     container_name: backend
     ports:
       - "8000:8000"
@@ -21,6 +22,7 @@ services:
 
   frontend:
     build: ./frontend
+    image: sushmaagowdaa/virtual-frontend
     container_name: frontend
     ports:
       - "3000:80"
